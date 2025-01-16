@@ -1,6 +1,5 @@
 # data files, figures
 
-*.h5ad
 figures/*
 
 # Byte-compiled / optimized / DLL files
