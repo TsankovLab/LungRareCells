@@ -20,5 +20,17 @@ and download the HLCA .h5ad object into the data folder.
 ### Installing packages
 
 ```
-conda env create -f 'LungRareCells/environment/lung_rare_cells.yml'
+conda env create -f 'LungRareCells/misc/lung_rare_cells.yml'
 ```
+
+## Detecting rare cells in HLCA normal dataset (full)
+
+Run script `detect_rare_cells.py` with command:
+
+```
+python detect_rare_cells.py
+```
+
+resulting object, `hlca_normal_scored.h5ad`, will be saved in the `data` folder.
+
+Scripts utilizing `hlca_normal_scored.h5ad` object will also load `hlca_normal_annot_after_doublet_removal.csv` which contain rare celltype annotations after doublet removal.
