@@ -20,5 +20,5 @@ and download the HLCA .h5ad object into the data folder.
 ### Installing packages
 
 ```
-conda env create -f 'LungRareCells/environment/lung_rare_cell.yml'
+conda env create -f 'LungRareCells/environment/lung_rare_cells.yml'
 ```
