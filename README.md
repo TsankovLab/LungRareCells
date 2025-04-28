@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/917185763.svg)](https://doi.org/10.5281/zenodo.15298362)
+
 # LungRareCells
 This repository contains custom code to reproduce rare cell detection in HLCA normal dataset and figures in our manuscript, "A deep lung cell atlas reveals cytokine-mediated lineage switching of a rare cell progenitor of the human airway epithelium"
 
